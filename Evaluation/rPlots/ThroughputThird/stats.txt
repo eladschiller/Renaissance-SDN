@@ -1,0 +1,4 @@
+B4: 1-12 (1-5) Theta 10
+CLos: 1-20 (1-17) Theta 10
+Telstra: 1-50 (1-9) Theta 30
+ATT: 1-74 (67-83) Theta 30
