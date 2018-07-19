@@ -6,8 +6,8 @@ This repository features a prototype implementation of the Renaissance algorithm
 A guide on how to run the Renaissance prototype:
 1. Move to the folder floodlight_global and build it via the **ant** command.
 2. Move to the folder floodlight_local and build it via the **ant** command.
-3. While in the floodlight_local folder, start the local controller by typing **java -jar target/floodlight.jar
-4. Open a new terminal and move to the folder where the network topologies reside, namely mininetScripts. Start the desired topology using the command **sudo python "filename".py
+3. While in the floodlight_local folder, start the local controller by typing **java -jar target/floodlight.jar**
+4. Open a new terminal and move to the folder where the network topologies reside, namely mininetScripts. Start the desired topology using the command **sudo python "filename".py**
 5. A mininet prompt will show up once the network has been started. In the prompt, use the command **xterm h1** to open a terminal on host 1.
 6. In the newly opened terminal on host 1, move to floodlight_global and start it by using the command **java -jar target/floodlight.jar**
 7. You are now able to see the network being discovered by the global controller. To run more than one controller, repeat steps 4-6 for other hosts.
