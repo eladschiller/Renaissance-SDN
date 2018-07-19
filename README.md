@@ -10,7 +10,7 @@ A guide on how to run the Renaissance prototype:
 4. Open a new terminal and move to the folder where the network topologies reside, namely mininetScripts. Start the desired topology using the command **sudo python "filename".py**
 5. A mininet prompt will show up once the network has been started. In the prompt, use the command **xterm h1** to open a terminal on host 1.
 6. In the newly opened terminal on host 1, move to floodlight_global and start it by using the command **java -jar target/floodlight.jar**
-7. You are now able to see the network being discovered by the global controller. To run more than one controller, repeat steps 4-6 for other hosts.
+7. You are now able to see the network being discovered by the global controller. To run more than one controller, repeat steps 5-6 for other hosts.
 
 
 
