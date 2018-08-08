@@ -25,4 +25,4 @@ This version of the implementation is by [Ivan Tannerud](https://www.linkedin.co
 
 ## References 
 
-[1] Marco Canini, Iosif Salem, Liron Schiff, Elad Michael Schiller, Stefan Schmid `Renaissance: Self-Stabilizing Distributed SDN Control Plane,' International Conference on Distributed Computing Systems (ICDCS) 2018. An earlier version can be accessed via https://arxiv.org/abs/1712.07697
+[1]: Marco Canini, Iosif Salem, Liron Schiff, Elad Michael Schiller, Stefan Schmid `Renaissance: Self-Stabilizing Distributed SDN Control Plane,' International Conference on Distributed Computing Systems (ICDCS) 2018. An earlier version can be accessed via https://arxiv.org/abs/1712.07697
