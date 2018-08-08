@@ -1,7 +1,7 @@
 # Renaissance: a self-Stabilizing Distributed SDN Control Plane
 ## A floodlight prototype implementation
 
-This repository features a prototype implementation of the Renaissance algorithm [1], using the Floodlight SDN controller. An evaluation of performance is provided as well. This version of the implementation is by Ivan Tannerud and Anton Lundgren, and it builds upon earlier work one by Michael Tran. Emelie Ekenstedt provided assistance along the way.
+This repository features a prototype implementation of the Renaissance algorithm [1], using the Floodlight SDN controller. An evaluation of performance is provided as well.
 
 A guide on how to run the Renaissance prototype:
 1. Move to the folder floodlight_global and build it via the **ant** command.
@@ -12,7 +12,8 @@ A guide on how to run the Renaissance prototype:
 6. In the newly opened terminal on host 1, move to floodlight_global and start it by using the command **java -jar target/floodlight.jar**
 7. You are now able to see the network being discovered by the global controller. To run more than one controller, repeat steps 5-6 for other hosts.
 
-
+### Code Authors
+This version of the implementation is by Ivan Tannerud and Anton Lundgren, and it builds upon earlier work one by Michael Tran. Emelie Ekenstedt provided assistance along the way.
 
 References 
 
