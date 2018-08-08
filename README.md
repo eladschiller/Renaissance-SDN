@@ -3,12 +3,12 @@
 By introducing programmability, automated verification, and innovative debugging tools, Software-Defined Networks (SDNs) are poised to 
 meet the increasingly stringent dependability requirements of today's communication networks. However, the design of fault-tolerant SDNs remains an open challenge.
 
-[Renaissance][1] considers the design of dependable SDNs through the lenses of _self-stabilization_ — a very strong notion of fault-tolerance. In particular, it is based on algorithms for an in-band and distributed 
+Renaissance [[1](https://arxiv.org/abs/1712.07697)] considers the design of dependable SDNs through the lenses of _self-stabilization_ — a very strong notion of fault-tolerance. In particular, it is based on algorithms for an in-band and distributed 
 control plane for SDNs, which tolerate a wide range of (concurrent) controller, link, and communication failures. These self-stabilizing algorithms ensure that after the occurrence of an arbitrary combination of failures, (i) every non-faulty SDN controller can eventually reach any switch in the network within a bounded communication delay (in the presence of a bounded number of concurrent failures) and (ii) every switch is managed by at least one non-faulty controller.
 
 ## A floodlight prototype implementation
 
-This repository features a prototype implementation of the [Renaissance][1] algorithm, using the [Floodlight](http://www.projectfloodlight.org/floodlight/) SDN controller and [Open vSwitch](https://www.openvswitch.org/). An evaluation of performance via [Mininet](http://www.projectfloodlight.org/floodlight/) is provided as well.
+This repository features a prototype implementation of the Renaissance [[1](https://arxiv.org/abs/1712.07697)] algorithm, using the [Floodlight](http://www.projectfloodlight.org/floodlight/) SDN controller and [Open vSwitch](https://www.openvswitch.org/). An evaluation of performance via [Mininet](http://www.projectfloodlight.org/floodlight/) is provided as well.
 
 ### `How to run' guide
 1. Move to the folder floodlight_global and build it via the **ant** command.
@@ -25,4 +25,4 @@ This version of the implementation is by [Ivan Tannerud](https://www.linkedin.co
 
 ## References 
 
-[1]: Marco Canini, Iosif Salem, Liron Schiff, Elad Michael Schiller, Stefan Schmid `Renaissance: Self-Stabilizing Distributed SDN Control Plane,' International Conference on Distributed Computing Systems (ICDCS) 2018. An earlier version can be accessed via https://arxiv.org/abs/1712.07697
+[1] Marco Canini, Iosif Salem, Liron Schiff, Elad Michael Schiller, Stefan Schmid `Renaissance: Self-Stabilizing Distributed SDN Control Plane,' International Conference on Distributed Computing Systems (ICDCS) 2018. An earlier version can be accessed via https://arxiv.org/abs/1712.07697
