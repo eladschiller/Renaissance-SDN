@@ -1,4 +1,4 @@
-# Renaissance: a self-Stabilizing Distributed SDN Control Plane
+# Renaissance: a Self-Stabilizing Distributed SDN Control Plane
 
 By introducing programmability, automated verification, and innovative debugging tools, Software-Defined Networks (SDNs) are poised to 
 meet the increasingly stringent dependability requirements of today's communication networks. However, the design of fault-tolerant SDNs remains an open challenge.
