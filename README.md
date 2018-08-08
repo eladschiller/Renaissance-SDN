@@ -3,7 +3,7 @@
 
 This repository features a prototype implementation of the Renaissance algorithm [1], using the Floodlight SDN controller. An evaluation of performance is provided as well.
 
-### How to run guide
+### `How to run' guide
 1. Move to the folder floodlight_global and build it via the **ant** command.
 2. Move to the folder floodlight_local and build it via the **ant** command.
 3. While in the floodlight_local folder, start the local controller by typing **java -jar target/floodlight.jar**
