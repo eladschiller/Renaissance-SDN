@@ -3,7 +3,7 @@
 By introducing programmability, automated verification, and innovative debugging tools, Software-Defined Networks (SDNs) are poised to 
 meet the increasingly stringent dependability requirements of today's communication networks. However, the design of fault-tolerant SDNs remains an open challenge.
 
-Renaissance [[1](https://arxiv.org/abs/1712.07697)] considers the design of dependable SDNs through the lenses of \emph{self-stabilization} --- a very strong notion of fault-tolerance. In particular, it is based on algorithms for an in-band and distributed 
+Renaissance [[1](https://arxiv.org/abs/1712.07697)] considers the design of dependable SDNs through the lenses of **self-stabilization** — a very strong notion of fault-tolerance. In particular, it is based on algorithms for an in-band and distributed 
 control plane for SDNs, which tolerate a wide range of (concurrent) controller, link, and communication failures. These self-stabilizing algorithms ensure that after the occurrence of an arbitrary combination of failures, (i) every non-faulty SDN controller can eventually reach any switch in the network within a bounded communication delay (in the presence of a bounded number of concurrent failures) and (ii) every switch is managed by at least one non-faulty controller.
 
 ## A floodlight prototype implementation
